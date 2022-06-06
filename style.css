@@ -1,0 +1,17 @@
+#anima-div{
+    background: url("../imgs/sprite-homer.png");
+    height:233px;
+    width:321px;
+    animation: anima-sprite 3s steps(35) infinite;
+}
+
+/*
+@keyframes anima-sprite{
+    from{background-position: 0px;} 
+    to{background-position: -1920px;}
+}*/
+
+@keyframes anima-sprite{
+  100%{background-position-x: -11200px;}
+}
+
